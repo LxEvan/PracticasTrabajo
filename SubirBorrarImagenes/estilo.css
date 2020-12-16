@@ -1,0 +1,37 @@
+﻿body {   
+    padding-left: 5px;
+    font-size: 1.25rem;
+    line-height: 1.15;
+}
+#Button2 {
+    line-height: 0.9;
+    margin-bottom: 4.5px !important;
+}
+
+#Button3, #Button4 {
+    line-height: 1.2;
+    font-size: 16px;
+}
+#mensajev, #mensajer {
+    width: 350px;
+}
+tr.spaceUnder > td {
+    padding-bottom: 0.7em;
+}
+.input-group-text{
+    border-radius: 0 !important;
+}
+@media (max-width: 1290px) {
+    body {
+        font-size: 0.75rem !important;
+    }
+    #Button2 {
+        line-height:0.4;
+        margin-bottom: 2.5px !important;
+    }
+    #Button3, #Button4 {
+        line-height:0.8;
+        font-size:16px;
+    }
+
+}
